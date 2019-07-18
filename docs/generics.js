@@ -57,4 +57,4 @@ identityConstraint({ length: 1, value: 19 });
 function getProp(o, k) {
     return o[k];
 }
-console.log(getProp({ a: 1, b: 2 }, "a"), getProp({ a: 1, b: 2 }, "b"));
+console.log(getProp({ a: 1, b: 2 }, "a"));
