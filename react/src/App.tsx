@@ -6,7 +6,7 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Hello name="siemah" enthusiasmLevel={0} />
+      <Hello name="siemah" enthusiasmLevel={2} />
     </div>
   );
 }
